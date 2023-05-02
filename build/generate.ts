@@ -57,7 +57,7 @@ const generateEntry = async (files: string[]) => {
     const { filename, componentName } = getName(file);
     return `export { default as ${componentName} } from './${filename}.vue'`;
   })
-  const warper = `export { default as ${camelcase(`${PREFIX}icon`, { pascalCase: true })} } from './icon.vue'`;
+  const warper = `export { default as ${camelcase(`${PREFIX}-icon`, { pascalCase: true })} } from './icon.vue'`;
   outputs.push(warper);
   const code = formatCode( outputs.join('\n'));
   await writeFile(path.resolve(enterPath, './libs/index.ts'), code, 'utf-8');

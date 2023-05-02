@@ -730,4 +730,4 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
 }
 var icon = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "/Users/yangyangyang/Documents/\u9879\u76EE/icons/package/libs/icon.vue"]]);
 
-export { chat as KChat, cloudShell as KCloudShell, codeBranch as KCodeBranch, control as KControl, copy as KCopy, headset as KHeadset, logout as KLogout, map as KMap, menu as KMenu, more as KMore, moreDirection as KMoreDirection, pen as KPen, phone as KPhone, play as KPlay, security as KSecurity, tag as KTag, icon as Kicon };
+export { chat as KChat, cloudShell as KCloudShell, codeBranch as KCodeBranch, control as KControl, copy as KCopy, headset as KHeadset, icon as KIcon, logout as KLogout, map as KMap, menu as KMenu, more as KMore, moreDirection as KMoreDirection, pen as KPen, phone as KPhone, play as KPlay, security as KSecurity, tag as KTag };

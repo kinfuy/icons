@@ -14,4 +14,4 @@ export { default as KPhone } from './phone.vue.mjs';
 export { default as KPlay } from './play.vue.mjs';
 export { default as KSecurity } from './security.vue.mjs';
 export { default as KTag } from './tag.vue.mjs';
-export { default as Kicon } from './icon.vue.mjs';
+export { default as KIcon } from './icon.vue.mjs';

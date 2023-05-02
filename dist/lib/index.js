@@ -36,4 +36,4 @@ exports.KPhone = phone.default;
 exports.KPlay = play.default;
 exports.KSecurity = security.default;
 exports.KTag = tag.default;
-exports.Kicon = icon.default;
+exports.KIcon = icon.default;

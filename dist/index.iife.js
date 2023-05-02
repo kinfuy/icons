@@ -737,6 +737,7 @@ var KICONS = (function (exports, vue) {
   exports.KControl = control;
   exports.KCopy = copy;
   exports.KHeadset = headset;
+  exports.KIcon = icon;
   exports.KLogout = logout;
   exports.KMap = map;
   exports.KMenu = menu;
@@ -747,7 +748,6 @@ var KICONS = (function (exports, vue) {
   exports.KPlay = play;
   exports.KSecurity = security;
   exports.KTag = tag;
-  exports.Kicon = icon;
 
   return exports;
 
