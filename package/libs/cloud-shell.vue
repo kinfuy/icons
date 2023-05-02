@@ -1,0 +1,25 @@
+<template>
+  <svg
+    class="icon"
+    width="64px"
+    height="64.00px"
+    viewBox="0 0 1024 1024"
+    version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M917.333333 835.413333H106.666667V188.586667h810.666666zM186.666667 755.413333h650.666666V268.586667H186.666667z"
+      fill="currentColor"
+    />
+    <path
+      d="M343.04 648.746667l-56.533333-56.533334 88.32-88.32-88.32-88.32 56.533333-56.746666 144.853333 145.066666-144.853333 144.853334zM507.093333 585.173333h230.4v80h-230.4z"
+      fill="currentColor"
+    />
+  </svg>
+</template>
+<script lang="ts">
+import { defineComponent } from 'vue'
+export default defineComponent({
+  name: 'KCloudShell',
+})
+</script>

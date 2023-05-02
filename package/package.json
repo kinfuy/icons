@@ -1,0 +1,19 @@
+{
+  "name": "@kinfuy/icons",
+  "version": "0.0.1",
+  "description": "kinfuy icons",
+  "author": "kinfuy",
+  "license": "ISC",
+  "keywords": [
+    "icon",
+    "svg",
+    "vue"
+  ],
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "unpkg": "index.iife.min.js",
+  "types": "types",
+  "peerDependencies": {
+    "vue": "^3.2.0"
+  }
+}

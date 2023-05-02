@@ -1,0 +1,25 @@
+.k-svg-icon {
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: optimize-legibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    line-height: 1;
+}
+
+.k-svg-icon-animation-spin {
+    display: inline-block;
+    animation: loadingCircle 1s infinite linear;
+}
+
+.k-svg-icon svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: current-color;
+    overflow: hidden;
+}
