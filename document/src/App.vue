@@ -9,7 +9,7 @@ const { KIcon, ...iconlist } = icons;
   <div class="title">KINFUY ICONS</div>
   <div class="icons-warper">
     <div class="icon-item" v-for="icon in iconlist" :key="icon.name">
-      <KIcon :size="40" spin>
+      <KIcon :size="40">
         <component :is="icon" />
       </KIcon>
       <div class="icon-text">{{ icon.name }}</div>
