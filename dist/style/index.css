@@ -11,7 +11,7 @@
     line-height: 1;
 }
 
-.k-svg-icon-animation-spin {
+.k-animation-spin {
     display: inline-block;
     animation: loadingCircle 1s infinite linear;
 }
@@ -22,4 +22,14 @@
     vertical-align: -0.15em;
     fill: current-color;
     overflow: hidden;
+}
+
+@keyframes loadingCircle {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
