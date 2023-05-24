@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-var note_vue_vue_type_script_lang = require('./note.vue2.js');
+var Note_vue_vue_type_script_lang = require('./Note.vue2.js');
 var vue = require('vue');
 var _pluginVue_exportHelper = require('./_virtual/_plugin-vue_export-helper.js');
 
@@ -30,6 +30,6 @@ const _hoisted_3 = [
 function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   return vue.openBlock(), vue.createElementBlock("svg", _hoisted_1, _hoisted_3);
 }
-var note = /* @__PURE__ */ _pluginVue_exportHelper.default(note_vue_vue_type_script_lang.default, [["render", _sfc_render], ["__file", "/Users/yangyangyang/Documents/\u9879\u76EE/icons/package/libs/note.vue"]]);
+var Note = /* @__PURE__ */ _pluginVue_exportHelper.default(Note_vue_vue_type_script_lang.default, [["render", _sfc_render], ["__file", "/Users/yangyangyang/Documents/\u9879\u76EE/icons/package/libs/Note.vue"]]);
 
-exports.default = note;
+exports.default = Note;

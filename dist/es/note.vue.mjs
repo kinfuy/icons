@@ -1,4 +1,4 @@
-import _sfc_main from './note.vue2.mjs';
+import _sfc_main from './Note.vue2.mjs';
 import { openBlock, createElementBlock, createElementVNode } from 'vue';
 import _export_sfc from './_virtual/_plugin-vue_export-helper.mjs';
 
@@ -26,6 +26,6 @@ const _hoisted_3 = [
 function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   return openBlock(), createElementBlock("svg", _hoisted_1, _hoisted_3);
 }
-var note = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "/Users/yangyangyang/Documents/\u9879\u76EE/icons/package/libs/note.vue"]]);
+var Note = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "/Users/yangyangyang/Documents/\u9879\u76EE/icons/package/libs/Note.vue"]]);
 
-export { note as default };
+export { Note as default };
